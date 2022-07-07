@@ -2602,12 +2602,12 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378C3F;
+  background: #222222;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #378C3F;
+  color: #000000;
 }
 
 .progress-container.progress-info .progress {
@@ -3102,7 +3102,7 @@ body {
 }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #378C3F;
+  background-color: #222222;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
@@ -3402,7 +3402,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;
+  background-color: #222222 !important;
 }
 
 .bg-info {
