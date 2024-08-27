@@ -1,12 +1,13 @@
 import { useTranslation } from "react-i18next";
 import CardProject from "./CardProject";
-import { Projects } from "../types";
+import type { Projects } from "../types";
+import { usePortfolio } from "../hooks/usePortfolio";
 
-type ProjectsProps = {
-  projects: Projects[];
-};
-export default function Projects({ projects }: ProjectsProps) {
+
+export default function Projects() {
   const { t } = useTranslation();
+
+  const {projects} = usePortfolio()
   return (
     <div className="container_projects">
       <div>
