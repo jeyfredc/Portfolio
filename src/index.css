@@ -1,0 +1,375 @@
+:root {
+  --white: #fff;
+  --black: #000000;
+  --primary: #2196f3;
+  --blue-primary: #182339;
+  --green-primary: #378c3f;
+  --green-secondary: #2d6c33;
+}
+
+body {
+  background-color: var(--blue-primary);
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+}
+
+.bg_header {
+  background-image: url("/bg_header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  background-position-y: -50px;
+  height: 330px;
+}
+
+.bg_header > * {
+  position: relative;
+  z-index: 2;
+}
+
+.container_button_translation {
+  width: 40px;
+  z-index: 3;
+  top: 9px;
+  left: 16px;
+}
+.button_translation {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: auto;
+  background: white;
+  border: none;
+  border-radius: 22%;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  position: fixed; /* Fija el nav en su posición */
+  top: 0; /* Mantiene el nav en la parte superior de la página */
+  width: 100%; /* Asegura que el nav ocupe todo el ancho de la página */
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: var(--white);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-right: 5%;
+  align-items: center;
+  background-color: #0b0f19;
+  z-index: 1000;
+  height: 64px;
+}
+
+.nav > li {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.link_route {
+  color: white;
+  text-decoration: none;
+}
+
+.link_route:hover {
+  color: var(--primary);
+}
+
+.container_profile {
+  text-align: center;
+  margin: auto;
+  padding-top: 6%;
+}
+
+.image_profile {
+  object-fit: cover;
+  width: 90px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.titleName,
+.titleProfession {
+  color: var(--white);
+}
+
+.resume {
+  border: none;
+  background-color: var(--green-primary);
+  color: var(--white);
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 1.5%;
+}
+
+.resume:hover {
+  background-color: var(--green-secondary);
+  color: var(--black);
+  font: 700;
+  font-weight: bold;
+}
+
+.container_about {
+  display: flex;
+  width: 90%;
+  background-color: var(--white);
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+}
+
+.about_me,
+.basic_information {
+  width: 50%;
+}
+
+.title_about {
+  font-size: 2rem;
+  margin-left: 4%;
+}
+
+.about_me > p {
+  margin-left: 4%;
+  text-align: justify;
+  padding-right: 4%;
+}
+
+.wrap_information {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.container_information {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.basic_information {
+  flex: 0 0 40%;
+  max-width: 40%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+.information {
+  flex: 0 0 60%;
+  max-width: 60%;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.container_skills,
+.container_projects,
+.container_experiences {
+  margin: auto;
+  width: 90%;
+  margin-top: 50px;
+}
+
+.title_skills,
+.title_projects {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skills {
+  display: flex;
+  width: 90%;
+  background-color: var(--white);
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+}
+
+.card {
+  height: 620px;
+}
+
+.projects {
+  -webkit-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  border: none;
+  margin-bottom: 35px;
+}
+
+.size_svg {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+
+.card_image {
+  width: 100%;
+  object-fit: cover;
+  padding: 22px;
+}
+
+.project_paragraph {
+  text-align: justify;
+  padding: 5px 17px;
+  margin: 0;
+}
+
+.link_web,
+.link_repo {
+  cursor: pointer;
+  color: var(--blue-primary);
+}
+
+.card_experience {
+  display: flex;
+  width: 90%;
+  background-color: var(--white);
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+}
+
+.container_experience {
+  display: flex;
+}
+
+.date_experience {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--black);
+  color: var(--white);
+  text-align: center;
+  flex: 0 0 25%;
+}
+.infomation_experience {
+  padding: 20px;
+  text-align: justify;
+  padding-right: 80px;
+  flex: 0 0 75%;
+}
+
+.skills_experience {
+  margin-left: 30px;
+}
+
+.container_references {
+  display: flex;
+  width: 90%;
+  background-color: var(--white);
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 17px 6px rgba(0, 0, 0, 0.75);
+  height: 135px;
+}
+
+.sign {
+  color: var(--white);
+}
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.icon_link {
+  color: var(--white);
+  width: 20px;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
+.icon:hover {
+  color: var(--primary);
+}
+
+.footer_links {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.icon_tailwind {
+  color: #38bdf8;
+}
+
+@media only screen and (max-width: 768px) {
+  .link_route {
+    display: none;
+  }
+
+  .container_profile {
+    padding-top: 25%;
+  }
+
+  .container_about {
+    flex-direction: column;
+  }
+
+  .about_me {
+    width: 100%;
+  }
+  .title_about {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .basic_information {
+    width: 100%;
+    flex: 0 0 33%;
+    max-width: 100%;
+  }
+
+  .size_svg {
+    width: 40px;
+  }
+  .container_experience {
+    flex-direction: column;
+    height: 888px;
+  }
+
+  .card_experience{
+    margin-bottom: 30px;
+  }
+
+  .date_experience {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+
+  .date_experience  > p {
+    padding: 0 !important;
+    margin: 0 !important;
+
+  }
+
+  .infomation_experience{
+    flex: 0 0 100%;
+    padding-right: 30px;
+  }
+
+  .infomation_experience > h2 {
+    text-align: center;
+  }
+}
