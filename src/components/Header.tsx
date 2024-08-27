@@ -69,13 +69,13 @@ export const HeaderMenu = () => {
 
           <img
             className="image_profile"
-            src="./public/profile.jpg"
-            alt="photo"
+            src="./image_projects/photo.jpg"
+            alt="perfil"
           />
           <h2 className="titleName">Jeyfred Calderon Cortes</h2>
           <h3 className="titleProfession">{t("profession")}</h3>
 
-          <button className="resume" id='about'>{t('resume')}</button>
+          <a className="resume" id='about'  target="_blank" href={currentLanguage=== "es" ? 'https://drive.google.com/file/d/17pE_BL70mm4he3EWGVQ-7J-oCl_7YZ03/view?usp=sharing': 'https://drive.google.com/file/d/1MgY8U31qQ-iYAlDbLfcOwZA4EqCgeP61/view?usp=sharing'}  >{t('resume')}</a>
           </div>
     
       </header>
