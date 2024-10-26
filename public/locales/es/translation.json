@@ -27,6 +27,7 @@
   "skills": "Habilidades Profesionales",
   "projects": {
     "title": "Proyectos",
+    "up_task":"Manejador de tareas: Aplicación desarrollada con Express, MongoDB y React, utilizando Zustand, React Query, useClient, React Router y JWT para autenticación segura. Permite la creación y organización de tareas, asignación de responsables y gestión de estados de seguimiento. Los usuarios pueden vincularse y desvincularse de proyectos, y cada miembro del equipo tiene acceso a una cuenta propia, lo que facilita la visualización de las tareas asignadas y el progreso de los proyectos.",
     "cocktail_app": "Proyecto Buscador de Recetas de Cócteles: Aplicación que se conecta a una API para obtener recetas según el ingrediente y la categoría ingresados. Desarrollada en React, utiliza React Router, Zustand para la gestión de estados, Zod para la validación de datos, TypeScript, y guarda las búsquedas en localStorage.",
     "cripto_app": "Proyecto Cotizador de Criptomonedas: Aplicación en React que utiliza una API para obtener información sobre 4 tipos de monedas y la criptomoneda seleccionada. Implementa herramientas como Zustand, Zod y useEffect para la gestión de estados y validación de datos.",
     "pacients_app": "Proyecto de Agenda para Pacientes Veterinarios: Aplicación que permite ingresar información del propietario, correo electrónico y síntomas del paciente. La aplicación crea una tarjeta con los datos del paciente para su seguimiento. Desarrollada en React, utiliza hooks, Tailwind, Toastify para las notificaciones, y React Hook Form.",

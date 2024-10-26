@@ -70,40 +70,41 @@ export const usePortfolio = () => {
   const projects: Projects[] = [
     {
       id: 1,
+      titleProject: 'Up Task',
+      descriptionProject: t('projects.up_task'),
+      webProject: 'https://uptask-frontend-rho.vercel.app/',
+      webRepo: 'https://github.com/jeyfredc/uptask_frontend'
+    },
+    {
+      id: 2,
       titleProject: 'cocktail App',
       descriptionProject: t('projects.cocktail_app'),
       webProject: 'https://66c4f255ee22f34687898183--nimble-faun-4f5e47.netlify.app/',
       webRepo: 'https://github.com/jeyfredc/coktail-app-react'
     }, {
-      id: 2,
+      id: 3,
       titleProject: 'Cotizador de criptomonedas',
       descriptionProject: t('projects.cripto_app'),
       webProject: 'https://66bcd453e9da4ece50a600cb--zesty-nougat-14613c.netlify.app/',
       webRepo: 'https://github.com/jeyfredc/Cripto-App-React-Con-Zod?tab=readme-ov-file'
     }, {
-      id: 3,
+      id: 4,
       titleProject: 'Pacientes App',
       descriptionProject: t('projects.pacients_app'),
       webProject: 'https://66ba338dfdff58c9623d477c--scintillating-muffin-9fce55.netlify.app/',
       webRepo: 'https://github.com/jeyfredc/pactientes-App-React'
     }, {
-      id: 4,
+      id: 5,
       titleProject: 'Control gastos App',
       descriptionProject: t('projects.spend_app'),
       webProject: 'https://66b4f0f024cc3f3716ad2cea--keen-seahorse-a9f709.netlify.app/',
       webRepo: 'https://github.com/jeyfredc/control-gastos-react'
     }, {
-      id: 5,
+      id: 6,
       titleProject: 'Gifts App',
       descriptionProject: t('projects.gift_app'),
       webProject: 'https://jeyfredc.github.io/GiftApp-Angular/',
       webRepo: 'https://github.com/jeyfredc/GiftApp-Angular?tab=readme-ov-file'
-    }, {
-      id: 6,
-      titleProject: 'Backend-Django',
-      descriptionProject: t('projects.backend_django'),
-      webProject: 'https://github.com/jeyfredc/backend-django-CRUD',
-      webRepo: 'https://github.com/jeyfredc/backend-django-CRUD'
     }
   ]
 
