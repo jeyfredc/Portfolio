@@ -67,7 +67,13 @@ export const usePortfolio = () => {
   ]
 
 
-  const projects: Projects[] = [
+  const projects: Projects[] = [{
+    id: 0,
+    titleProject: 'Kiosk Food',
+    descriptionProject: t('projects.kiosk_food'),
+    webProject: 'https://quiosco-next-ten.vercel.app/admin/products',
+    webRepo: 'https://github.com/jeyfredc/quiosco-next'
+  },
     {
       id: 1,
       titleProject: 'Up Task',
