@@ -46,11 +46,11 @@
       "jobPosition": "Ingeniero de desarrollo",
       "durationEmployment":"Diciembre 2023 - Actualidad",
       "achievements": {
-        "one": " Realizar mantenimientos y desarrollos a páginas existentes de la compañía.",
-        "two": "Creación de servicios API REST para consumo front-end, incluyendo pruebas, ejecución y documentación.",
-        "three": "Creación de procedimientos almacenados en la base de datos para su consumo desde el backend.",
-        "four": "Creación de proyectos nuevos en front utilizando Angular.",
-        "five": "Ejecución de requerimientos solicitados por el área de QA."
+        "one": "Mantenimiento y evolución de plataformas web existentes, asegurando rendimiento óptimo y mejoras continuas.",
+        "two": "Desarrollo y optimización de servicios API REST para el consumo front-end, incluyendo pruebas automatizadas, implementación eficiente y documentación detallada.",
+        "three": "Diseño e implementación de procedimientos almacenados en bases de datos para mejorar la integración y eficiencia en la gestión de datos.",
+        "four": "Creación y desarrollo de aplicaciones front-end con Angular o React, garantizando interfaces intuitivas y adaptables a las necesidades del usuario.",
+        "five": "Colaboración activa con el equipo de QA, asegurando la ejecución precisa de requerimientos y la entrega de productos con altos estándares de calidad."
       },
       "skills":"C# | Angular Js | .Net Framework | ASP.Net | Visual Basic | Django | Microsoft SQL Server | React"
     },

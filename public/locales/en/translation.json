@@ -46,11 +46,11 @@
       "jobPosition": "Development Engineer",
       "durationEmployment":"December 2023 - Present",
       "achievements": {
-        "one": "Performed maintenance and development of the company's existing websites.",
-        "two": "Created REST API services for front-end consumption, including testing, execution, and documentation.",
-        "three": "Developed stored procedures in the database for backend consumption.",
-        "four": "Launched new front-end projects using Angular.",
-        "five": "Executed requirements requested by the QA department."
+        "one": "Maintenance and enhancement of existing web platforms, ensuring optimal performance and continuous improvements.",
+        "two": "Development and optimization of API REST services for front-end consumption, including automated testing, efficient execution, and detailed documentation.",
+        "three": "Design and implementation of stored procedures in databases to improve integration and data management efficiency.",
+        "four": "Creation and development of front-end applications using Angular, ensuring intuitive and user-friendly interfaces.",
+        "five": "Active collaboration with the QA team, guaranteeing precise execution of requirements and high-quality product delivery."
       },
       "skills":"C# | Angular Js | .Net Framework | ASP.Net | Visual Basic | Django | Microsoft SQL Server | React"
     },
