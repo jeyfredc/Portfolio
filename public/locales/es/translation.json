@@ -11,9 +11,7 @@
   "aboutMe": {
     "title": "Sobre mi",
     "description": {
-      "one": "Soy un apasionado desarrollador FullStack con más de 3 años de experiencia en la creación de sitios web desde cero y en la mejora del diseño y la funcionalidad. Con sólidos conocimientos técnicos en herramientas como React, Redux, Angular, TypeScript, y en la gestión de grandes bases de datos como PostgreSQL y SQLServer, también tengo experiencia en el desarrollo Backend con Django y C#.",
-      "two": "Mis habilidades van más allá de la programación; soy una persona comprometida y disciplinada que siempre busca alcanzar los mejores resultados posibles. Soy entusiasta con mi trabajo y consistente en lograr los objetivos establecidos.",
-      "three": "Si estás interesado en conocer más sobre mi trabajo, no dudes en ponerte en contacto. ¡Me encantaría mostrarte lo que puedo hacer por tu empresa o proyecto!"
+      "one": "Desarrollador Full Stack con más de 4 años de experiencia construyendo y manteniendo aplicaciones web en frontend y backend. Es-pecializado en React, Angular, C#, .NET Core, Python (Django) y bases de datos como SQL Server y PostgreSQL. Fuerte enfoque en el desarrollo de APIs REST, mejora de rendimiento y automatización de procesos. Colaborador proactivo, orientado a resultados, con experiencia en entornos ágiles Scrum."
     },
     "basicInformation": {
       "title": "Información Basica",
@@ -27,51 +25,62 @@
   "skills": "Habilidades Profesionales",
   "projects": {
     "title": "Proyectos",
-    "kiosk_food":"Quiosco de Comidas: Aplicación desarrollada con Next.js, React, Prisma y Zod. Esta plataforma de pedidos de comida permite a los usuarios explorar un menú digital, seleccionar platos, y disfrutar de una experiencia de pedido optimizada. Los administradores pueden crear nuevos platos, organizarlos en categorías y personalizarlos con imágenes. La aplicación incluye secciones dedicadas para ver órdenes en espera y órdenes listas para entrega, cada una en pantallas separadas que se actualizan automáticamente cada minuto. Este sistema de actualización en tiempo real asegura que los pedidos y el estado de cada orden estén siempre al día.",
-    "up_task":"Manejador de tareas: Aplicación desarrollada con Express, MongoDB y React, utilizando Zustand, React Query, useClient, React Router y JWT para autenticación segura. Permite la creación y organización de tareas, asignación de responsables y gestión de estados de seguimiento. Los usuarios pueden vincularse y desvincularse de proyectos, y cada miembro del equipo tiene acceso a una cuenta propia, lo que facilita la visualización de las tareas asignadas y el progreso de los proyectos.",
+    "kiosk_food": "Quiosco de Comidas: Aplicación desarrollada con Next.js, React, Prisma y Zod. Esta plataforma de pedidos de comida permite a los usuarios explorar un menú digital, seleccionar platos, y disfrutar de una experiencia de pedido optimizada. Los administradores pueden crear nuevos platos, organizarlos en categorías y personalizarlos con imágenes. La aplicación incluye secciones dedicadas para ver órdenes en espera y órdenes listas para entrega, cada una en pantallas separadas que se actualizan automáticamente cada minuto. Este sistema de actualización en tiempo real asegura que los pedidos y el estado de cada orden estén siempre al día.",
+    "up_task": "Manejador de tareas: Aplicación desarrollada con Express, MongoDB y React, utilizando Zustand, React Query, useClient, React Router y JWT para autenticación segura. Permite la creación y organización de tareas, asignación de responsables y gestión de estados de seguimiento. Los usuarios pueden vincularse y desvincularse de proyectos, y cada miembro del equipo tiene acceso a una cuenta propia, lo que facilita la visualización de las tareas asignadas y el progreso de los proyectos.",
     "cocktail_app": "Proyecto Buscador de Recetas de Cócteles: Aplicación que se conecta a una API para obtener recetas según el ingrediente y la categoría ingresados. Desarrollada en React, utiliza React Router, Zustand para la gestión de estados, Zod para la validación de datos, TypeScript, y guarda las búsquedas en localStorage.",
     "cripto_app": "Proyecto Cotizador de Criptomonedas: Aplicación en React que utiliza una API para obtener información sobre 4 tipos de monedas y la criptomoneda seleccionada. Implementa herramientas como Zustand, Zod y useEffect para la gestión de estados y validación de datos.",
     "pacients_app": "Proyecto de Agenda para Pacientes Veterinarios: Aplicación que permite ingresar información del propietario, correo electrónico y síntomas del paciente. La aplicación crea una tarjeta con los datos del paciente para su seguimiento. Desarrollada en React, utiliza hooks, Tailwind, Toastify para las notificaciones, y React Hook Form.",
     "spend_app": "Proyecto de control de gastos está diseñado para gestionar de manera eficiente el dinero disponible. Permite registrar gastos diarios de forma sencilla y emite alertas cuando los gastos superan el monto disponible. Los usuarios pueden seleccionar el tipo de gasto al registrarlo y aplicar filtros para identificar los gastos más significativos. El proyecto está desarrollado con React y utiliza funcionalidades avanzadas como Reducer, useContext, useMemo, localStorage y TypeScript para ofrecer una experiencia de usuario robusta y optimizada.",
     "gift_app": "Este proyecto desarrollado en Angular permite realizar búsquedas de GIFs a través de una API. Además, guarda el historial de las últimas 10 búsquedas realizadas, facilitando el acceso rápido a búsquedas anteriores y mejorando la experiencia del usuario.",
     "backend_django": "Este proyecto, realizado como práctica, está enfocado en la integración de una base de datos y la dockerización de un proyecto en Django. Permite realizar un CRUD para gestionar personas, incluyendo la creación de perfiles con diferentes hobbies. Toda la implementación y configuración están documentadas en el repositorio.",
-    "info_link":"Puedes visitar la pagina en el siguiente",
+    "info_link": "Puedes visitar la pagina en el siguiente",
     "code_repo": "Código del repositorio"
   },
   "experiences": {
     "title": "Experiencia",
-    "knowledgeSkills":"Conocimientos Y Habilidades",
-    "hdi": {
-      "company":"HDI Seguros Colombia",
-      "jobPosition": "Ingeniero de desarrollo",
-      "durationEmployment":"Diciembre 2023 - Actualidad",
+    "knowledgeSkills": "Conocimientos Y Habilidades",
+    "mectronics": {
+      "company": "Mectronics S.A",
+      "jobPosition": "Ingeniero de desarrollo Semi-Senior",
+      "durationEmployment": "Junio 2025 - Actualidad",
       "achievements": {
-        "one": "Mantenimiento y evolución de plataformas web existentes, asegurando rendimiento óptimo y mejoras continuas.",
-        "two": "Desarrollo y optimización de servicios API REST para el consumo front-end, incluyendo pruebas automatizadas, implementación eficiente y documentación detallada.",
-        "three": "Diseño e implementación de procedimientos almacenados en bases de datos para mejorar la integración y eficiencia en la gestión de datos.",
-        "four": "Creación y desarrollo de aplicaciones front-end con Angular o React, garantizando interfaces intuitivas y adaptables a las necesidades del usuario.",
-        "five": "Colaboración activa con el equipo de QA, asegurando la ejecución precisa de requerimientos y la entrega de productos con altos estándares de calidad."
+        "one": "Gestionar y ejecutar los requisitos de Historias de usuario para la evolución de aplicaciones empresariales críticas, diseñando, creando y optimizando procedimientos almacenados complejos que mejoran el rendimiento del sistema en un 35% y garantizan la integridad de los datos en procesos clave del negocio.",
+        "two": "Realizar un análisis técnico exhaustivo de los requisitos funcionales para modernizar y mejorar aplicaciones heredadas desarrolladas en C# y .NET Core, traduciendo las necesidades del negocio en soluciones técnicas escalables alineadas con la arquitectura empresarial establecida.",
+        "three": "Implementar estrategias de pruebas basadas en el conocimiento del dominio, ejecutando pruebas funcionales, de integración y regresión alineadas con el ciclo de desarrollo ágil, reduciendo los tiempos de entrega en un 40% y asegurando la calidad del software antes de su despliegue en producción.",
+        "four": "Colaborar estratégicamente con líderes de área y stakeholders para priorizar y gestionar requisitos funcionales, desarrollando soluciones robustas mediante metodologías de desarrollo colaborativo que fortalecen las relaciones con los clientes internos y elevan los estándares de calidad en los entregables."
       },
-      "skills":"C# | Angular Js | .Net Framework | ASP.Net | Visual Basic | Django | Microsoft SQL Server | React"
+      "skills": "C# | .Net Framework | Visual Basic | Azure devops | Microsoft SQL Server | TFS"
+    },
+    "hdi": {
+      "company": "HDI Seguros Colombia",
+      "jobPosition": "Ingeniero de desarrollo",
+      "durationEmployment": "Diciembre 2023 - Abril 2025",
+      "achievements": {
+        "one": "Desarrollar y optimizar servicios REST API con pruebas automatizadas y documentación técnica, mejorando la mantenibilidad del sistema y reduciendo errores en la integración con el frontend.",
+        "two": "Diseñar e implementar procedimientos almacenados para bases de datos, permitiendo una integración de datos más eficiente y mejorando el rendimiento en procesos clave del sistema.",
+        "three": "Construir interfaces frontend adaptativas en Angular y React, mejorando la experiencia de usuario y permitiendo una respuesta más rápida a los requerimientos del negocio.",
+        "four": "Colaborar estrechamente con el equipo de QA para validar las funcionalidades desarrolladas, asegurando que los entregables se alineen con los requisitos y reduciendo retrabajos durante el ciclo de desarrollo."
+      },
+      "skills": "C# | Angular Js | .Net Framework | ASP.Net | Visual Basic | Django | Microsoft SQL Server | React"
     },
     "artemisa": {
       "jobPosition": "Analista de desarrollo",
-      "company":"Artemisa TECH SAS",
-      "durationEmployment":"Junio 2023 - Diciembre 2023",
+      "company": "Artemisa TECH SAS",
+      "durationEmployment": "Junio 2023 - Diciembre 2023",
       "achievements": {
-        "one": "Desarrollo de paginas web según los mockups proporcionados por el área funcional.",
-        "two": "Creación de servicios API REST para consumo front-end, incluyendo pruebas, ejecución y documentación.",
-        "three": "Creación de procedimientos almacenados en la base de datos para su consumo desde el backend.",
-        "four": "Atención a los diferentes requerimientos funcionales solicitados por el área funcional o de calidad."
+        "one": "Desarrollar interfaces web basadas en maquetas funcionales utilizando AngularJS y Sass, permitiendo una implementación visual más rápida y precisa de los requerimientos del negocio.",
+        "two": "Construir y desarrollar APIs REST con pruebas y documentación, facilitando una integración fluida del sistema y reduciendo errores durante el desarrollo frontend-backend.",
+        "three": "Implementar la lógica de negocio mediante procedimientos almacenados en SQL Server, optimizando los tiempos de respuesta en operaciones clave del sistema y reduciendo la carga lógica en el frontend.",
+        "four": "Colaborar con el equipo de QA en la validación de las funcionalidades desarrolladas, asegurando que los entregables cumplan con los requisitos funcionales y mantengan la calidad esperada en cada iteración."
       },
-      "skills":"Microsoft SQL Server | C# | Angular Js | Scrum | Sonar"
+      "skills": "Microsoft SQL Server | C# | Angular Js | Scrum | Sonar"
     },
     "grupoMok": {
-      "company":"Grupo Mok",
+      "company": "Grupo Mok",
       "positions": [
         {
           "jobPosition": "Desarrollador Semi-senior Full Stack",
-          "durationEmployment":"Abril 2022 – Julio 2022",
+          "durationEmployment": "Abril 2022 – Julio 2022",
           "achievements": {
             "one": " Desarrollo en diferentes lenguajes relacionados con bases de datos, modificando vistas y entregando el 60% del desarrollo al equipo funcional para posteriores mejoras.",
             "two": "Dirección de un equipo de 3 personas para corregir y entregar las novedades solicitadas por el área funcional, validando el cumplimiento de los puntos solicitados según el modelo de negocio de la empresa.",
@@ -80,7 +89,7 @@
         },
         {
           "jobPositionTwo": "Analista de desarrollo 2",
-          "durationEmploymentTwo":"Enero 2022 - Abril 2022",
+          "durationEmploymentTwo": "Enero 2022 - Abril 2022",
           "achievementsTwo": {
             "one": "Contribuí reduciendo en un 70% los errores detectados por el cliente al modificar las vistas y funciones que afectan la interacción del programa React con la base de datos.",
             "two": "Abordé las quejas de los usuarios respecto a datos incorrectos mediante la corrección de funciones en el Backend, garantizando el registro preciso de la información. "
@@ -88,15 +97,14 @@
         },
         {
           "jobPositionThree": "Analista de desarrollo 1",
-          "durationEmploymentThree":"Diciembre 2020 - Diciembre 2021",
+          "durationEmploymentThree": "Diciembre 2020 - Diciembre 2021",
           "achievementsThree": {
             "one": "Dirigí la reducción en un 90% de las tareas manuales al desarrollar un módulo para la carga masiva de documentos en Excel, con validaciones realizadas tanto por el equipo Frontend como el Backend. ",
             "two": "Desarrollé un formato en PDF para descargar un resumen de siniestros conciliados entre cliente y proveedor, facilitando la firma de un acta y su posterior carga al sistema para realizar conciliaciones de manera masiva"
           }
         }
       ],
-      "skills":"GitLab | Reducer | Java | Scrum | React | Postgresql | Django"
+      "skills": "GitLab | Reducer | Java | Scrum | React | Postgresql | Django"
     }
   }
 }
-

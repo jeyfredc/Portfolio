@@ -54,9 +54,7 @@ export const usePortfolio = () => {
       aboutMe: {
         title: t('aboutMe.title'),
         description: {
-          one: t('aboutMe.description.one'),
-          two: t('aboutMe.description.two'),
-          three: t('aboutMe.description.three')
+          one: t('aboutMe.description.one')
         },
         basicInformation: {
           title: t('aboutMe.basicInformation.title'),
@@ -116,8 +114,33 @@ export const usePortfolio = () => {
 
 
   const positionHelds: PositionHelds[] = [
-    {
+        {
       id: 1,
+      company: t('experiences.mectronics.company'),
+      position: t('experiences.mectronics.jobPosition'),
+      durationEmployment: t('experiences.mectronics.durationEmployment'),
+      achievements:[
+        {
+          id:1,
+          achievement:t('experiences.mectronics.achievements.one'),
+        },
+        {
+          id:2,
+          achievement:t('experiences.mectronics.achievements.two'),
+        },
+        {
+          id:3,
+          achievement:t('experiences.mectronics.achievements.three'),
+        },
+        {
+          id:4,
+          achievement:t('experiences.mectronics.achievements.four'),
+        }
+      ],
+      skills: t('experiences.hdi.skills')
+    },
+    {
+      id: 2,
       company: t('experiences.hdi.company'),
       position: t('experiences.hdi.jobPosition'),
       durationEmployment: t('experiences.hdi.durationEmployment'),
@@ -137,15 +160,11 @@ export const usePortfolio = () => {
         {
           id:4,
           achievement:t('experiences.hdi.achievements.four'),
-        },
-        {
-          id:5,
-          achievement:t('experiences.hdi.achievements.five'),
         }
       ],
       skills: t('experiences.hdi.skills')
     },{
-      id: 2,
+      id: 3,
       company: t('experiences.artemisa.company'),
       position: t('experiences.artemisa.jobPosition'),
       durationEmployment: t('experiences.artemisa.durationEmployment'),
@@ -170,7 +189,7 @@ export const usePortfolio = () => {
       ],
       skills: t('experiences.artemisa.skills')
     },{
-      id: 3,
+      id: 4,
       company: t('experiences.grupoMok.company'),
       position: t('experiences.grupoMok.positions.0.jobPosition'),
       durationEmployment: t('experiences.grupoMok.positions.0.durationEmployment'),
@@ -192,7 +211,7 @@ export const usePortfolio = () => {
     
     },
     {
-      id: 4,
+      id: 5,
       company: t('experiences.grupoMok.company'),
       position: t('experiences.grupoMok.positions.1.jobPositionTwo'),
       durationEmployment: t('experiences.grupoMok.positions.1.durationEmploymentTwo'),
@@ -210,7 +229,7 @@ export const usePortfolio = () => {
     
     },
     {
-      id: 5,
+      id: 6,
       company: t('experiences.grupoMok.company'),
       position: t('experiences.grupoMok.positions.2.jobPositionThree'),
       durationEmployment: t('experiences.grupoMok.positions.2.durationEmploymentThree'),

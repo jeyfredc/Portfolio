@@ -11,9 +11,7 @@
   "aboutMe": {
     "title": "About me",
     "description": {
-      "one": "I am a passionate FullStack developer with over 3 years of experience in creating websites from scratch and working on design and functionality improvements. With solid technical knowledge in tools such as React, Redux, Angular, TypeScript, and managing large databases like PostgreSQL and SQLServer, I also have experience in Backend development with Django and C#.",
-      "two": "My skills go beyond programming; I am a committed and disciplined person who always seeks to achieve the best possible results. I am enthusiastic about my work and consistent in achieving set goals.",
-      "three": "If you are interested in learning more about my work, feel free to get in touch! I would love to show you what I can do for your company or project."
+      "one": "Desarrollador Full Stack con más de 4 años de experiencia construyendo y manteniendo aplicaciones web en frontend y backend. Es-pecializado en React, Angular, C#, .NET Core, Python (Django) y bases de datos como SQL Server y PostgreSQL. Fuerte enfoque en el desarrollo de APIs REST, mejora de rendimiento y automatización de procesos. Colaborador proactivo, orientado a resultados, con experiencia en entornos ágiles Scrum."
     },
     "basicInformation": {
       "title": "Basic Information",
@@ -27,8 +25,8 @@
   "skills": "Professional Skills",
   "projects": {
     "title": "Projects",
-    "kiosk_food":"Food Kiosk: An application developed with Next.js, React, Prisma, and Zod. This food ordering platform allows users to browse a digital menu, select dishes, and enjoy an optimized ordering experience. Administrators can create new dishes, organize them into categories, and customize them with images. The app features dedicated sections for viewing pending orders and checking orders ready for pickup, each displayed on separate screens that refresh automatically every minute. This real-time update system ensures that orders and their statuses are always up to date.",
-    "up_task":"Task Manager: Application built with Express, MongoDB, and React, utilizing Zustand, React Query, useClient, React Router, and JWT for secure authentication. It allows task creation and organization, assignment of team members, and management of tracking statuses. Users can be linked or unlinked from projects, and each team member has access to their own account, making it easy to view assigned tasks and monitor project progress.",
+    "kiosk_food": "Food Kiosk: An application developed with Next.js, React, Prisma, and Zod. This food ordering platform allows users to browse a digital menu, select dishes, and enjoy an optimized ordering experience. Administrators can create new dishes, organize them into categories, and customize them with images. The app features dedicated sections for viewing pending orders and checking orders ready for pickup, each displayed on separate screens that refresh automatically every minute. This real-time update system ensures that orders and their statuses are always up to date.",
+    "up_task": "Task Manager: Application built with Express, MongoDB, and React, utilizing Zustand, React Query, useClient, React Router, and JWT for secure authentication. It allows task creation and organization, assignment of team members, and management of tracking statuses. Users can be linked or unlinked from projects, and each team member has access to their own account, making it easy to view assigned tasks and monitor project progress.",
     "cocktail_app": "Cocktail Recipe Finder Project: An application that connects to an API to fetch cocktail recipes based on the entered ingredient and category. Built with React, it uses React Router, Zustand for state management, Zod for data validation, TypeScript, and stores searches in localStorage.",
     "cripto_app": "Cryptocurrency Price Checker Project: A React application that uses an API to fetch information about 4 types of currencies and the selected cryptocurrency. It implements tools like Zustand, Zod, and useEffect for state management and data validation.",
     "pacients_app": "Veterinary Patient Management Project: An application that allows users to enter information about the owner, email, and patient symptoms. The app creates a card with the patient’s details for tracking purposes. Built with React, it uses hooks, Tailwind, Toastify for notifications, and React Hook Form.",
@@ -40,11 +38,23 @@
   },
   "experiences": {
     "title": "Experience",
-    "knowledgeSkills":"Knowledge And Skills",
+    "knowledgeSkills": "Knowledge And Skills",
+    "mectronics": {
+      "company": "Mectronics S.A",
+      "jobPosition": "Semi-Senior Development Engineer",
+      "durationEmployment": "June 2025 – Present",
+      "achievements": {
+        "one": "Manage and execute User Story (US) requirements for the evolution of critical enterprise applications, designing, creating, and optimizing complex stored procedures that improve system performance by 35% and ensure data integrity in key business processes.",
+        "two": "Conduct thorough technical analysis of functional requirements to modernize and enhance legacy applications developed in C# and .NET Core, translating business needs into scalable technical solutions aligned with the established enterprise architecture.",
+        "three": "Implement testing strategies based on domain knowledge, executing functional, integration, and regression tests aligned with the agile development cycle, reducing delivery times by 40% while ensuring software quality before production deployment.",
+        "four": "Collaborate strategically with area leaders and stakeholders to prioritize and manage functional requirements, developing robust solutions through collaborative development methodologies that strengthen relationships with internal clients and raise quality standards in deliverables."
+      },
+      "skills": "C# | .Net Framework | Visual Basic | Azure devops | Microsoft SQL Server | TFS"
+    },
     "hdi": {
-      "company":"HDI Seguros Colombia",
+      "company": "HDI Seguros Colombia",
       "jobPosition": "Development Engineer",
-      "durationEmployment":"December 2023 - Present",
+      "durationEmployment": "December 2023 - Present",
       "achievements": {
         "one": "Maintenance and enhancement of existing web platforms, ensuring optimal performance and continuous improvements.",
         "two": "Development and optimization of API REST services for front-end consumption, including automated testing, efficient execution, and detailed documentation.",
@@ -52,37 +62,35 @@
         "four": "Creation and development of front-end applications using Angular, ensuring intuitive and user-friendly interfaces.",
         "five": "Active collaboration with the QA team, guaranteeing precise execution of requirements and high-quality product delivery."
       },
-      "skills":"C# | Angular Js | .Net Framework | ASP.Net | Visual Basic | Django | Microsoft SQL Server | React"
+      "skills": "C# | Angular Js | .Net Framework | ASP.Net | Visual Basic | Django | Microsoft SQL Server | React"
     },
     "artemisa": {
       "jobPosition": "Development Analyst",
-      "company":"Artemisa TECH SAS",
-      "durationEmployment":"June 2023 - December 2023",
+      "company": "Artemisa TECH SAS",
+      "durationEmployment": "June 2023 - December 2023",
       "achievements": {
         "one": "Developed web pages according to mockups provided by the functional area.",
         "two": "Created REST API services for front-end consumption, including testing, execution, and documentation.",
         "three": "Developed stored procedures in the database for backend consumption.",
         "four": "Addressed various functional requirements requested by the functional or quality area."
       },
-      "skills":"Microsoft SQL Server | C# | Angular Js | Scrum | Sonar"
+      "skills": "Microsoft SQL Server | C# | Angular Js | Scrum | Sonar"
     },
     "grupoMok": {
-      "company":"Grupo Mok",
+      "company": "Grupo Mok",
       "positions": [
         {
           "jobPosition": "Semi-Senior Full Stack Developer",
-          "durationEmployment":"May 2022 - July 2022",
+          "durationEmployment": "May 2022 - July 2022",
           "achievements": {
             "one": "Developed in various database-related languages, modifying views and delivering 60% of the development to the functional team for further improvements.",
             "two": "Led a team of 3 to correct and deliver new features requested by the functional area, ensuring the fulfillment of the requested points according to the company's business model.",
             "three": "Optimized 70% of the code to be reusable by analyzing and correcting the React application."
           }
-          
-
         },
         {
           "jobPositionTwo": "Development Analyst 2",
-          "durationEmploymentTwo":"January 2022 - April 2022",
+          "durationEmploymentTwo": "January 2022 - April 2022",
           "achievementsTwo": {
             "one": "Contributed to reducing client-detected errors by 70% by modifying views and functions that affect the interaction of the React program with the database.",
             "two": "Addressed user complaints about incorrect data by correcting functions in the Backend, ensuring accurate information recording."
@@ -90,14 +98,14 @@
         },
         {
           "jobPositionThree": "Development Analyst 1",
-          "durationEmploymentThree":"December 2020 - December 2021",
+          "durationEmploymentThree": "December 2020 - December 2021",
           "achievementsThree": {
             "one": "Led a 90% reduction in manual tasks by developing a module for the mass upload of Excel documents, with validations performed by both the Frontend and Backend teams.",
             "two": "Developed a PDF format to download a summary of reconciled claims between client and provider, facilitating the signing of a document and its subsequent upload to the system for mass reconciliations."
           }
         }
       ],
-      "skills":"GitLab | Reducer | Java | Scrum | React | Postgresql | Django"
+      "skills": "GitLab | Reducer | Java | Scrum | React | Postgresql | Django"
     }
   }
 }
