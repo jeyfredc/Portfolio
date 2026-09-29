@@ -75,7 +75,7 @@ export const HeaderMenu = () => {
           <h2 className="titleName">Jeyfred Calderon Cortes</h2>
           <h3 className="titleProfession">{t("profession")}</h3>
 
-          <button className="resume" id='about'>{t('resume')}</button>
+          <a className="resume" id='about' target="_blank" href={currentLanguage === "es" ? 'https://drive.google.com/file/d/1F9uoctvX5U0KoDp3YYec09fcIbThsqlc/view?usp=sharing' : 'https://drive.google.com/file/d/17qZEonMHNfmr01WaHq0zyR1a_2o_Gf85/view?usp=sharing'}>{t('resume')}</a>
           </div>
     
       </header>

@@ -7,8 +7,8 @@ export type Header = {
 
 type DescriptionInformation = {
     one:string
-    two:string
-    three: string
+    two?:string
+    three?: string
 }
 
 type BasicInformation = {
@@ -48,5 +48,12 @@ export type PositionHelds = {
   company:string
   durationEmployment: string;
   position: string;
+  progression?: string
   skills:string
+}
+
+export type Certification = {
+  name: string
+  issuer: string
+  year: string
 }

@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import { HeaderMenu } from "./components/Header";
@@ -13,6 +14,7 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
+      <Education />
       <Footer />
     </>
   );

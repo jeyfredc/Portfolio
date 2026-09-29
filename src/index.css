@@ -101,6 +101,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
   margin-bottom: 1.5%;
+  text-decoration: none;
 }
 
 .resume:hover {
@@ -265,6 +266,28 @@ body {
   margin-left: 30px;
 }
 
+.progression_experience {
+  font-style: italic;
+}
+
+.container_education {
+  display: flex;
+  width: 100%;
+}
+
+.title_certifications {
+  margin-top: 50px;
+}
+
+.list_certifications {
+  padding: 20px 20px 20px 50px;
+  margin: 0;
+}
+
+.list_certifications > li {
+  padding: 4px 0;
+}
+
 .container_references {
   display: flex;
   width: 90%;
@@ -343,9 +366,13 @@ body {
   .size_svg {
     width: 40px;
   }
-  .container_experience {
+  .container_experience,
+  .container_education {
     flex-direction: column;
-    height: 888px;
+  }
+
+  .date_experience {
+    padding: 10px;
   }
 
   .card_experience{
