@@ -15,6 +15,11 @@ export default function CardJob({ position }: CardJobProps) {
       </div>
       <div className="infomation_experience">
         <h2>{position.position}</h2>
+        {position.progression && (
+          <p className="progression_experience">
+            <strong>{t("experiences.progressionTitle")}:</strong> {position.progression}
+          </p>
+        )}
         <ul>
           {position.achievements.map((achievement) => (
             <li key={achievement.id}> {achievement.achievement} </li>

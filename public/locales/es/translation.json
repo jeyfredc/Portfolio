@@ -4,18 +4,19 @@
     "aboutMe": "Sobre mi",
     "skills": "Habilidades",
     "projects": "Proyectos",
-    "experience": "Experiencia"
+    "experience": "Experiencia",
+    "education": "Formación"
   },
-  "profession": "Desarrollador FullStack",
+  "profession": "Desarrollador Fullstack Senior",
   "resume": "Hoja de vida",
   "aboutMe": {
     "title": "Sobre mi",
     "description": {
-      "one": "Desarrollador Full Stack con más de 4 años de experiencia construyendo y manteniendo aplicaciones web en frontend y backend. Es-pecializado en React, Angular, C#, .NET Core, Python (Django) y bases de datos como SQL Server y PostgreSQL. Fuerte enfoque en el desarrollo de APIs REST, mejora de rendimiento y automatización de procesos. Colaborador proactivo, orientado a resultados, con experiencia en entornos ágiles Scrum."
+      "one": "Desarrollador Fullstack con 5 años de experiencia construyendo aplicaciones web escalables con React, TypeScript y JavaScript en el frontend, y APIs REST con .NET Core, C# y SQL Server en el backend. Experiencia en eCommerce (VTEX), sector asegurador y migración de sistemas legacy a arquitecturas modernas. Fortalezas en arquitectura de componentes reutilizables, optimización de rendimiento, liderazgo técnico y desarrollo asistido por IA (Cursor, Claude)."
     },
     "basicInformation": {
       "title": "Información Basica",
-      "language": "Español, Ingles",
+      "language": "Español (nativo), Inglés (B1)",
       "age": "Edad",
       "email": "Correo Electrónico",
       "cellphone": "Celular",
@@ -38,73 +39,112 @@
   },
   "experiences": {
     "title": "Experiencia",
-    "knowledgeSkills": "Conocimientos Y Habilidades",
-    "mectronics": {
-      "company": "Mectronics S.A",
-      "jobPosition": "Ingeniero de desarrollo Semi-Senior",
-      "durationEmployment": "Junio 2025 - Actualidad",
-      "achievements": {
-        "one": "Gestionar y ejecutar los requisitos de Historias de usuario para la evolución de aplicaciones empresariales críticas, diseñando, creando y optimizando procedimientos almacenados complejos que mejoran el rendimiento del sistema en un 35% y garantizan la integridad de los datos en procesos clave del negocio.",
-        "two": "Realizar un análisis técnico exhaustivo de los requisitos funcionales para modernizar y mejorar aplicaciones heredadas desarrolladas en C# y .NET Core, traduciendo las necesidades del negocio en soluciones técnicas escalables alineadas con la arquitectura empresarial establecida.",
-        "three": "Implementar estrategias de pruebas basadas en el conocimiento del dominio, ejecutando pruebas funcionales, de integración y regresión alineadas con el ciclo de desarrollo ágil, reduciendo los tiempos de entrega en un 40% y asegurando la calidad del software antes de su despliegue en producción.",
-        "four": "Colaborar estratégicamente con líderes de área y stakeholders para priorizar y gestionar requisitos funcionales, desarrollando soluciones robustas mediante metodologías de desarrollo colaborativo que fortalecen las relaciones con los clientes internos y elevan los estándares de calidad en los entregables."
+    "knowledgeSkills": "Tecnologías",
+    "progressionTitle": "Progresión",
+    "jobs": [
+      {
+        "company": "Tita Media SAS",
+        "jobPosition": "Frontend Developer Senior",
+        "durationEmployment": "Enero 2026 – Actualidad",
+        "achievements": [
+          "Desarrollo de nuevas funcionalidades para plataformas eCommerce en VTEX con React, JavaScript y TypeScript, creando componentes reutilizables y escalables.",
+          "Uso de desarrollo asistido por IA (Cursor, Claude) para acelerar entregas, con calidad de código validada en SonarQube.",
+          "Definición de alcance y prioridades con Product Owner, equipo Scrum y clientes en planning, daily y sprint review.",
+          "Soporte de producción: diagnóstico y solución de incidencias frontend para asegurar la estabilidad del sitio.",
+          "Documentación técnica y evidencias de pruebas funcionales para trazabilidad y control de calidad."
+        ],
+        "skills": "React | JavaScript | TypeScript | VTEX | Node.js | GitLab | SonarQube | WordPress | Cursor | Claude"
       },
-      "skills": "C# | .Net Framework | Visual Basic | Azure devops | Microsoft SQL Server | TFS"
-    },
-    "hdi": {
-      "company": "HDI Seguros Colombia",
-      "jobPosition": "Ingeniero de desarrollo",
-      "durationEmployment": "Diciembre 2023 - Abril 2025",
-      "achievements": {
-        "one": "Desarrollar y optimizar servicios REST API con pruebas automatizadas y documentación técnica, mejorando la mantenibilidad del sistema y reduciendo errores en la integración con el frontend.",
-        "two": "Diseñar e implementar procedimientos almacenados para bases de datos, permitiendo una integración de datos más eficiente y mejorando el rendimiento en procesos clave del sistema.",
-        "three": "Construir interfaces frontend adaptativas en Angular y React, mejorando la experiencia de usuario y permitiendo una respuesta más rápida a los requerimientos del negocio.",
-        "four": "Colaborar estrechamente con el equipo de QA para validar las funcionalidades desarrolladas, asegurando que los entregables se alineen con los requisitos y reduciendo retrabajos durante el ciclo de desarrollo."
+      {
+        "company": "Mectronics S.A",
+        "jobPosition": "Ingeniero de Desarrollo Semi Senior (Fullstack)",
+        "durationEmployment": "Junio 2025 – Enero 2026",
+        "achievements": [
+          "Diseño y optimización de APIs REST en .NET Core y procedimientos almacenados en SQL Server, mejorando el rendimiento y el consumo de datos desde el frontend.",
+          "Refactorización de código JavaScript legacy con separación de responsabilidades y componentes reutilizables, preparando la migración a React.",
+          "Implementación de pruebas funcionales, de integración y de regresión dentro del ciclo ágil, reduciendo errores antes del despliegue."
+        ],
+        "skills": "C# | .NET Core | SQL Server | JavaScript | Visual Basic | Azure DevOps | TFS"
       },
-      "skills": "C# | Angular Js | .Net Framework | ASP.Net | Visual Basic | Django | Microsoft SQL Server | React"
-    },
-    "artemisa": {
-      "jobPosition": "Analista de desarrollo",
-      "company": "Artemisa TECH SAS",
-      "durationEmployment": "Junio 2023 - Diciembre 2023",
-      "achievements": {
-        "one": "Desarrollar interfaces web basadas en maquetas funcionales utilizando AngularJS y Sass, permitiendo una implementación visual más rápida y precisa de los requerimientos del negocio.",
-        "two": "Construir y desarrollar APIs REST con pruebas y documentación, facilitando una integración fluida del sistema y reduciendo errores durante el desarrollo frontend-backend.",
-        "three": "Implementar la lógica de negocio mediante procedimientos almacenados en SQL Server, optimizando los tiempos de respuesta en operaciones clave del sistema y reduciendo la carga lógica en el frontend.",
-        "four": "Colaborar con el equipo de QA en la validación de las funcionalidades desarrolladas, asegurando que los entregables cumplan con los requisitos funcionales y mantengan la calidad esperada en cada iteración."
+      {
+        "company": "HDI Colombia (sector seguros)",
+        "jobPosition": "Ingeniero de Desarrollo (Fullstack)",
+        "durationEmployment": "Diciembre 2023 – Abril 2025",
+        "achievements": [
+          "Migración de una aplicación Visual Basic a arquitectura moderna: frontend en React y backend en .NET Core, mejorando mantenibilidad y escalabilidad.",
+          "Desarrollo de interfaces en React y Angular según requerimientos del negocio.",
+          "Construcción y consumo de APIs REST con pruebas automatizadas, reduciendo errores de integración frontend-backend.",
+          "Validación de funcionalidades con QA, reduciendo retrabajos antes de cada entrega."
+        ],
+        "skills": "React | Angular | AngularJS | C# | .NET Core | APIs REST | SQL Server | Azure DevOps | TFS"
       },
-      "skills": "Microsoft SQL Server | C# | Angular Js | Scrum | Sonar"
-    },
-    "grupoMok": {
-      "company": "Grupo Mok",
-      "positions": [
-        {
-          "jobPosition": "Desarrollador Semi-senior Full Stack",
-          "durationEmployment": "Abril 2022 – Julio 2022",
-          "achievements": {
-            "one": " Desarrollo en diferentes lenguajes relacionados con bases de datos, modificando vistas y entregando el 60% del desarrollo al equipo funcional para posteriores mejoras.",
-            "two": "Dirección de un equipo de 3 personas para corregir y entregar las novedades solicitadas por el área funcional, validando el cumplimiento de los puntos solicitados según el modelo de negocio de la empresa.",
-            "three": "Optimización del 70% del código para que sea reutilizable mediante el análisis y corrección del aplicativo en React."
-          }
-        },
-        {
-          "jobPositionTwo": "Analista de desarrollo 2",
-          "durationEmploymentTwo": "Enero 2022 - Abril 2022",
-          "achievementsTwo": {
-            "one": "Contribuí reduciendo en un 70% los errores detectados por el cliente al modificar las vistas y funciones que afectan la interacción del programa React con la base de datos.",
-            "two": "Abordé las quejas de los usuarios respecto a datos incorrectos mediante la corrección de funciones en el Backend, garantizando el registro preciso de la información. "
-          }
-        },
-        {
-          "jobPositionThree": "Analista de desarrollo 1",
-          "durationEmploymentThree": "Diciembre 2020 - Diciembre 2021",
-          "achievementsThree": {
-            "one": "Dirigí la reducción en un 90% de las tareas manuales al desarrollar un módulo para la carga masiva de documentos en Excel, con validaciones realizadas tanto por el equipo Frontend como el Backend. ",
-            "two": "Desarrollé un formato en PDF para descargar un resumen de siniestros conciliados entre cliente y proveedor, facilitando la firma de un acta y su posterior carga al sistema para realizar conciliaciones de manera masiva"
-          }
-        }
-      ],
-      "skills": "GitLab | Reducer | Java | Scrum | React | Postgresql | Django"
-    }
+      {
+        "company": "Artemisa S.A.S",
+        "jobPosition": "Analista de Desarrollo (Fullstack)",
+        "durationEmployment": "Junio 2023 – Diciembre 2023",
+        "achievements": [
+          "Desarrollo de APIs REST con .NET Core y optimización de procedimientos almacenados en SQL Server.",
+          "Construcción de interfaces en AngularJS y Sass a partir de maquetas, asegurando fidelidad visual y usabilidad.",
+          "Frontend dinámico basado en configuraciones del backend, adaptando la interfaz a reglas de negocio configurables."
+        ],
+        "skills": "AngularJS | C# | .NET Core | Sass | SQL Server | Azure | SonarQube | Scrum"
+      },
+      {
+        "company": "Grupo Mok",
+        "jobPosition": "Desarrollador Fullstack Semi Senior",
+        "durationEmployment": "Diciembre 2020 – Julio 2022",
+        "progression": "Analista de Desarrollo 1 → Analista de Desarrollo 2 → Desarrollador Fullstack Semi Senior (2 ascensos en 16 meses)",
+        "achievements": [
+          "Reducción del 90% en el tiempo operativo de usuarios internos con un módulo de carga masiva de documentos en React.",
+          "Reducción del 70% en errores funcionales y visuales mediante mejoras en React, disminuyendo el retrabajo de QA.",
+          "Liderazgo de un equipo técnico, asegurando entregas frontend alineadas con los sprints y estándares del producto.",
+          "Generador de PDF para resúmenes de reclamaciones desde el frontend, agilizando la firma de acuerdos y la conciliación.",
+          "Refactorización de componentes React para mejorar reutilización y rendimiento de renderizado.",
+          "Interfaces de validación y previsualización de documentos antes del envío al backend."
+        ],
+        "skills": "React | Redux | JavaScript | Python | Django | PostgreSQL | Java | JasperReports | GitLab | Postman"
+      }
+    ]
+  },
+  "education": {
+    "title": "Formación",
+    "degree": "Ingeniería Industrial",
+    "institution": "Universidad Incca de Colombia, Bogotá",
+    "date": "Diciembre 2017"
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "items": [
+      {
+        "name": "Curso Profesional de React.js y Redux",
+        "issuer": "Platzi",
+        "year": "2025"
+      },
+      {
+        "name": "Server-Side Rendering (SSR) con React.js",
+        "issuer": "Platzi",
+        "year": "2025"
+      },
+      {
+        "name": "Curso de Git y GitHub",
+        "issuer": "Platzi",
+        "year": "2025"
+      },
+      {
+        "name": "React y TypeScript",
+        "issuer": "Udemy",
+        "year": "2024"
+      },
+      {
+        "name": "Curso de Angular",
+        "issuer": "Udemy",
+        "year": "2024"
+      },
+      {
+        "name": "SCRUM Foundation Professional Certificate (SFPC)",
+        "issuer": "Certiprof",
+        "year": "2022"
+      }
+    ]
   }
 }

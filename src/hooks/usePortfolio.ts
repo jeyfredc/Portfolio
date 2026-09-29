@@ -1,6 +1,6 @@
 // headerMenu.ts
 import { useTranslation } from "react-i18next";
-import { About, Header, PositionHelds, Projects } from "../types";
+import { About, Certification, Header, PositionHelds, Projects } from "../types";
 
 export const usePortfolio = () => {
   const { t } = useTranslation();
@@ -45,6 +45,11 @@ export const usePortfolio = () => {
       id: 4,
       name: t('header.experience'),
       route:'experience'
+    },
+    {
+      id: 5,
+      name: t('header.education'),
+      route:'education'
     },
   ];
 
@@ -113,140 +118,28 @@ export const usePortfolio = () => {
   ]
 
 
-  const positionHelds: PositionHelds[] = [
-        {
-      id: 1,
-      company: t('experiences.mectronics.company'),
-      position: t('experiences.mectronics.jobPosition'),
-      durationEmployment: t('experiences.mectronics.durationEmployment'),
-      achievements:[
-        {
-          id:1,
-          achievement:t('experiences.mectronics.achievements.one'),
-        },
-        {
-          id:2,
-          achievement:t('experiences.mectronics.achievements.two'),
-        },
-        {
-          id:3,
-          achievement:t('experiences.mectronics.achievements.three'),
-        },
-        {
-          id:4,
-          achievement:t('experiences.mectronics.achievements.four'),
-        }
-      ],
-      skills: t('experiences.hdi.skills')
-    },
-    {
-      id: 2,
-      company: t('experiences.hdi.company'),
-      position: t('experiences.hdi.jobPosition'),
-      durationEmployment: t('experiences.hdi.durationEmployment'),
-      achievements:[
-        {
-          id:1,
-          achievement:t('experiences.hdi.achievements.one'),
-        },
-        {
-          id:2,
-          achievement:t('experiences.hdi.achievements.two'),
-        },
-        {
-          id:3,
-          achievement:t('experiences.hdi.achievements.three'),
-        },
-        {
-          id:4,
-          achievement:t('experiences.hdi.achievements.four'),
-        }
-      ],
-      skills: t('experiences.hdi.skills')
-    },{
-      id: 3,
-      company: t('experiences.artemisa.company'),
-      position: t('experiences.artemisa.jobPosition'),
-      durationEmployment: t('experiences.artemisa.durationEmployment'),
-      achievements:[
-        {
-          id:1,
-          achievement:t('experiences.artemisa.achievements.one'),
-        },
-        {
-          id:2,
-          achievement:t('experiences.artemisa.achievements.two'),
-        },
-        {
-          id:3,
-          achievement:t('experiences.artemisa.achievements.three'),
-        },
-        {
-          id:4,
-          achievement:t('experiences.artemisa.achievements.four'),
-        },
+  type Job = {
+    company: string
+    jobPosition: string
+    durationEmployment: string
+    progression?: string
+    achievements: string[]
+    skills: string
+  }
 
-      ],
-      skills: t('experiences.artemisa.skills')
-    },{
-      id: 4,
-      company: t('experiences.grupoMok.company'),
-      position: t('experiences.grupoMok.positions.0.jobPosition'),
-      durationEmployment: t('experiences.grupoMok.positions.0.durationEmployment'),
-      achievements:[
-        {
-          id:1,
-          achievement:t('experiences.grupoMok.positions.0.achievements.one')
-        },
-        {
-          id:2,
-          achievement:t('experiences.grupoMok.positions.0.achievements.two'),
-        },
-        {
-          id:3,
-          achievement:t('experiences.grupoMok.positions.0.achievements.three'),
-        },
-      ],
-      skills: t('experiences.grupoMok.skills')
-    
-    },
-    {
-      id: 5,
-      company: t('experiences.grupoMok.company'),
-      position: t('experiences.grupoMok.positions.1.jobPositionTwo'),
-      durationEmployment: t('experiences.grupoMok.positions.1.durationEmploymentTwo'),
-      achievements:[
-        {
-          id:1,
-          achievement:t('experiences.grupoMok.positions.1.achievementsTwo.one'),
-        },
-        {
-          id:2,
-          achievement:t('experiences.grupoMok.positions.1.achievementsTwo.two'),
-        }
-      ],
-      skills: t('experiences.grupoMok.skills')
-    
-    },
-    {
-      id: 6,
-      company: t('experiences.grupoMok.company'),
-      position: t('experiences.grupoMok.positions.2.jobPositionThree'),
-      durationEmployment: t('experiences.grupoMok.positions.2.durationEmploymentThree'),
-      achievements:[
-        {
-          id:1,
-          achievement:t('experiences.grupoMok.positions.2.achievementsThree.one'),
-        },
-        {
-          id:2,
-          achievement:t('experiences.grupoMok.positions.2.achievementsThree.two'),
-        }
-      ],
-      skills: t('experiences.grupoMok.skills')
-    
-    }
-  ]
+  const jobs = t('experiences.jobs', { returnObjects: true }) as Job[]
 
-  return { menuItems, aboutItems, calculateAge, projects, positionHelds }
+  const positionHelds: PositionHelds[] = (Array.isArray(jobs) ? jobs : []).map((job, index) => ({
+    id: index + 1,
+    company: job.company,
+    position: job.jobPosition,
+    durationEmployment: job.durationEmployment,
+    progression: job.progression,
+    skills: job.skills,
+    achievements: job.achievements.map((achievement, i) => ({ id: i + 1, achievement })),
+  }))
+
+  const certifications = t('certifications.items', { returnObjects: true }) as Certification[]
+
+  return { menuItems, aboutItems, calculateAge, projects, positionHelds, certifications: Array.isArray(certifications) ? certifications : [] }
 };
