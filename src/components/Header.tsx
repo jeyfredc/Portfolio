@@ -69,8 +69,8 @@ export const HeaderMenu = () => {
 
           <img
             className="image_profile"
-            src="./public/profile.jpg"
-            alt="photo"
+            src="./image_projects/photo.jpg"
+            alt="perfil"
           />
           <h2 className="titleName">Jeyfred Calderon Cortes</h2>
           <h3 className="titleProfession">{t("profession")}</h3>

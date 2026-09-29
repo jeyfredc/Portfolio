@@ -27,8 +27,8 @@ export default function CardProject({project}:CardProjectProps) {
             <p className="project_paragraph">
             {project.descriptionProject}
             </p>
-            <p className="project_paragraph">{t('projects.info_link')} <a className="link_web" href={project.webProject}>link </a> </p>
-            <p className="project_paragraph"><a className="link_repo" href={project.webRepo}>{t('projects.code_repo')} </a> </p> 
+            <p className="project_paragraph">{t('projects.info_link')} <a className="link_web" href={project.webProject}  target="_blank" >link </a> </p>
+            <p className="project_paragraph"><a className="link_repo" href={project.webRepo} target="_blank">{t('projects.code_repo')} </a> </p> 
           </div>
         </div>
       </div>
